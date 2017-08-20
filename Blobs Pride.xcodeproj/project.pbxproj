@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA411BCD1F4A170E00E3A204 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA411BCC1F4A170E00E3A204 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA411BD11F4A170E00E3A204 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA411BD01F4A170E00E3A204 /* Stickers.xcstickers */; };
+		AA411BD21F4A170E00E3A204 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AA411BD01F4A170E00E3A204 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA411BCE1F4A170E00E3A204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA411BC21F4A170D00E3A204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA411BCB1F4A170E00E3A204;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA411BD81F4A170E00E3A204 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA411BCD1F4A170E00E3A204 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA411BC81F4A170E00E3A204 /* Blobs Pride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blobs Pride.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA411BCC1F4A170E00E3A204 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA411BD01F4A170E00E3A204 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AA411BC11F4A170D00E3A204 = {
+			isa = PBXGroup;
+			children = (
+				AA411BD01F4A170E00E3A204 /* Stickers.xcstickers */,
+				AA411BC91F4A170E00E3A204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA411BC91F4A170E00E3A204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA411BC81F4A170E00E3A204 /* Blobs Pride.app */,
+				AA411BCC1F4A170E00E3A204 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA411BC71F4A170E00E3A204 /* Blobs Pride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA411BD91F4A170E00E3A204 /* Build configuration list for PBXNativeTarget "Blobs Pride" */;
+			buildPhases = (
+				AA411BC61F4A170E00E3A204 /* Resources */,
+				AA411BD81F4A170E00E3A204 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA411BCF1F4A170E00E3A204 /* PBXTargetDependency */,
+			);
+			name = "Blobs Pride";
+			productName = "Blobs Pride";
+			productReference = AA411BC81F4A170E00E3A204 /* Blobs Pride.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AA411BCB1F4A170E00E3A204 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA411BD51F4A170E00E3A204 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				AA411BCA1F4A170E00E3A204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = AA411BCC1F4A170E00E3A204 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA411BC21F4A170D00E3A204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kmdu59;
+				TargetAttributes = {
+					AA411BC71F4A170E00E3A204 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 569B2RRWKG;
+						ProvisioningStyle = Automatic;
+					};
+					AA411BCB1F4A170E00E3A204 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 569B2RRWKG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA411BC51F4A170D00E3A204 /* Build configuration list for PBXProject "Blobs Pride" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA411BC11F4A170D00E3A204;
+			productRefGroup = AA411BC91F4A170E00E3A204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA411BC71F4A170E00E3A204 /* Blobs Pride */,
+				AA411BCB1F4A170E00E3A204 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA411BC61F4A170E00E3A204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA411BD21F4A170E00E3A204 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA411BCA1F4A170E00E3A204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA411BD11F4A170E00E3A204 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA411BCF1F4A170E00E3A204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA411BCB1F4A170E00E3A204 /* StickerPackExtension */;
+			targetProxy = AA411BCE1F4A170E00E3A204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA411BD31F4A170E00E3A204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA411BD41F4A170E00E3A204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA411BD61F4A170E00E3A204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blobs-Pride.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA411BD71F4A170E00E3A204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blobs-Pride.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA411BDA1F4A170E00E3A204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blobs Pride/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blobs-Pride";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA411BDB1F4A170E00E3A204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blobs Pride/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blobs-Pride";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA411BC51F4A170D00E3A204 /* Build configuration list for PBXProject "Blobs Pride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA411BD31F4A170E00E3A204 /* Debug */,
+				AA411BD41F4A170E00E3A204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA411BD51F4A170E00E3A204 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA411BD61F4A170E00E3A204 /* Debug */,
+				AA411BD71F4A170E00E3A204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA411BD91F4A170E00E3A204 /* Build configuration list for PBXNativeTarget "Blobs Pride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA411BDA1F4A170E00E3A204 /* Debug */,
+				AA411BDB1F4A170E00E3A204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA411BC21F4A170D00E3A204 /* Project object */;
+}
