@@ -91,6 +91,12 @@
       "filename" : "BlobPolamoryPride.sticker"
     },
     {
+      "filename" : "BlobPolysexualPride.sticker"
+    },
+    {
+      "filename" : "BlobSapphicPride.sticker"
+    },
+    {
       "filename" : "BlobAsexualPanromanticPride.sticker"
     },
     {
@@ -98,12 +104,6 @@
     },
     {
       "filename" : "BlobAgenderAsexualPanromanticPride.sticker"
-    },
-    {
-      "filename" : "BlobPolysexualPride.sticker"
-    },
-    {
-      "filename" : "BlobSapphicPride.sticker"
     },
     {
       "filename" : "BlobFrancePride.sticker"
@@ -116,6 +116,9 @@
     },
     {
       "filename" : "BlobUSAPride.sticker"
+    },
+    {
+      "filename" : "BlobLilliumPride.sticker"
     }
   ],
   "info" : {
